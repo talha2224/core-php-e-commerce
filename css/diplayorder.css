@@ -1,0 +1,31 @@
+
+.detail-order-heading{
+    padding-top: 3rem;
+    padding-left:3rem ;
+    padding-right:3rem ;
+    padding-bottom: 2rem;
+}
+.detail-order-heading h2{
+    text-align: center;
+
+}
+.detail-order-table{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+table {
+    cursor: pointer;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+  }
+
+  td,th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 1rem;
+
+  }

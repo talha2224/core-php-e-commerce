@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.addPrroductMain{
+    font-family: 'Roboto', sans-serif;
+}
+
+.back button a{
+    text-decoration: none;
+    color: white;
+}
+.back button{
+    width: 6rem;
+    height: 2rem;
+    background-color: #FEBF31;
+    border: none;
+    border-radius: 5px;
+}
+.back{
+    margin-top:1rem;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+.addProductSub h2{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.first h3{
+    margin-bottom: .5rem;
+}
+.first input{
+    outline: none;
+    border: 1px solid gray;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 2rem;
+}
+.second h3{
+    margin-bottom: .5rem;
+}
+.second input{
+    outline: none;
+    border: 1px solid gray;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.second .pro-size{
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+}
+
+.third{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 2rem;
+}
+.third h3{
+    margin-bottom: .5rem;
+}
+.third input{
+    outline: none;
+    border: 1px solid gray;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.third .pro-cat{
+    width: 20rem;
+    height: 2rem;
+    outline: none;
+}
+
+.fourth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 2rem;
+}
+.fourth h3{
+    margin-bottom: .5rem;
+}
+.fourth input{
+    outline: none;
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.fifth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 1rem;
+}
+.fifth h3{
+    margin-bottom: .5rem;
+}
+.fifth input{
+    outline: none;
+    border: none;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.fifth #product_price{
+    border: 1px solid gray;
+}
+.quantity #quantity{
+    border: 1px solid gray;
+}
+#product_img{
+    padding-top:5px ;
+    padding-left: 0;
+}
+#quantity{
+    width: 20rem;
+}
+
+/* /SIXTH */
+.sixth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin-bottom: 2rem;
+}
+.sixth h3{
+    margin-bottom: .5rem;
+}
+.sixth input{
+    outline: none;
+    border: 1px solid gray;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+}
+
+.submit{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+#submit_btn{
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    background-color: #FEBF31;
+
+}
+
+
+

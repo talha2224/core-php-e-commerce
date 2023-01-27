@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #E4E4E3;
+    text-decoration: none;
+}
+.back{
+    margin: 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #FEBF31;
+    color: white;
+    width: 8rem;
+    height: 2.2rem;
+    border-radius: 10px;
+
+}
+.detail-heading{
+    font-family: 'Roboto', sans-serif; 
+    text-align: center;  
+}
+
+.container{
+    background-color: #E4E4E3;
+    width: 100vw;
+    overflow: scroll;
+    height: max-content;
+    font-family: 'Roboto', sans-serif;
+    
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.sub-container{
+    height: 80vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.first img{
+    /* margin-left: 3rem;
+    margin-right: 3rem; */
+    height: 50vh;
+}
+
+.second .title{
+    margin-bottom: .8rem;
+    text-transform: uppercase;
+}
+.second .price{
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+
+.second .description_heading{
+    color: rgb(12, 10, 10);
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}
+.second .description{
+    width: 30vw;
+    word-wrap: break-word;
+    font-size: 1rem;
+    margin-bottom: .8rem;
+}
+
+.second .size{
+    font-weight: bolder;
+    margin-bottom: .8rem;
+    text-transform: uppercase;
+}
+
+.second .size-available{
+    font-weight: bolder;
+    margin-bottom: .8rem;
+    text-transform: uppercase;
+}
+
+.second button{
+    margin-top: 1rem;
+    width: 8rem;
+    height: 2.2rem;
+    color: white;
+    background-color: #FEBF31;
+    cursor: pointer;
+    border: none;
+}

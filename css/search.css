@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+    background-color: #E7E4E3;
+    font-family: 'Roboto', sans-serif;
+}
+.back{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
+.back button{
+    margin-right: 2rem;
+    background-color: #FEBF31;
+    border: none;
+    width: 5rem;
+    height: 2rem;
+    border-radius: 2rem;
+}
+
+.back button a{
+    color: white;
+    text-decoration: none;
+}
+.display-container{
+    padding-top: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+.single-card{
+    margin-top: 1rem;
+    width: 20rem;
+    height: 20rem;
+    overflow: scroll;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-bottom: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    margin-right: 10px;
+}
+.top-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #928a8c;
+    width: 5rem;
+    font-size: 0.8rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+.discount:hover{
+    background-color: #F03351;
+    transition: 0.3s ease;
+}
+.show-more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #928a8c;
+    width: 5rem;
+    font-size: 0.8rem;
+    height: 2rem;
+    border-radius: 1rem;
+    margin-left: 8rem;
+}
+.show-more:hover{
+    background-color: #F03351;
+    transition: 0.3s ease;
+}
+
+.product-image{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.product-image img{
+    margin-top: 2rem;
+    height: 8rem;
+    object-fit: contain;
+}
+
+
+.cat-price{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-weight: bolder;
+    color:black;
+}
+
+.cat-name{
+    margin-left: 10px;
+    font-weight: bolder;
+
+}
+.add_price{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#add-to-cart-icon{
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 12rem;
+    border-radius: 50%;
+    background-color: #FEBF31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-right: 10px;
+}

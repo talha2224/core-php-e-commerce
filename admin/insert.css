@@ -1,0 +1,61 @@
+
+.insert{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+.insert-data{
+    width: 30vw;
+    height: 7vh;
+    outline: none;
+    border: 1px solid white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1.5rem;
+}
+.submit-title{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.cat-submit{
+    width:2rem;
+    height: 2rem;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #FEBF31;
+    border-radius: 50%;
+}
+#old{
+
+    width: 20rem;
+    height: 2.3rem;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+#new{
+
+    width: 20rem;
+    height: 2.3rem;
+    border: 1px solid gray;
+    outline: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.newbtn{
+    background-color: #FEBF31;
+    color: white;
+    width: 8rem;
+    height: 2rem;
+    cursor: pointer;
+    border: none;
+}

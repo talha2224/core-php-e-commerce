@@ -1,0 +1,63 @@
+
+.heading{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.container3{
+    background-color: rgb(87, 87, 100);
+    padding-top: 1.5rem;
+    height: 30vh;
+
+}
+
+.form{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 60vh;
+    background-color: white;
+    margin-top: -4rem;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.edit-heading{
+    padding-top: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.form_container{
+    padding-left: 2rem;
+}
+
+.buttons{
+    display: flex;
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.submit{
+    outline: none;
+    border: none;
+    background-color: #FEBF31;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+}
+
+.dele{
+    margin-left: 2rem;
+    outline: none;
+    border: none;
+    background-color: #FEBF31;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+}

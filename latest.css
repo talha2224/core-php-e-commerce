@@ -1,0 +1,196 @@
+.latest{
+    background-color:  #e4e4e3;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+.hatt{
+    text-decoration: none;
+    color: black;
+}
+.latest_container{
+    margin-top: 1rem;
+    padding-top: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: #E7E4E3;
+    margin-right: 5rem; 
+    /* border-radius: 10px; */
+    padding-bottom: 1rem;
+}
+.latest_product_1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 1rem;
+    background-color: #E7E4E3;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-right: 5rem; 
+}
+.text1{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+.text1 img{
+    height: 3rem;
+    margin-right: 1rem;
+}
+.latest-product-2{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: scroll;
+}
+.iconandtext{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.iconandtext p{
+    font-weight: bolder;
+    text-decoration: none;
+    margin-right: 9px;
+}
+.single-card-container{
+    margin-left: 0;
+    width: 20rem;
+    height: 20rem;
+    overflow: scroll;
+    border-radius: 10px;
+    margin-right: 3rem;
+    margin-bottom: 1.5rem;
+    background-color: #E7E4E3;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;    
+}
+
+/* BUTTONS */
+.upper-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.button1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #928a8c;
+    width: 5rem;
+    font-size: 0.8rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+.button1:hover{
+    background-color: #F03351;
+    transition: 0.3s ease;
+}
+
+.button2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #928a8c;
+    width: 5rem;
+    font-size: 0.8rem;
+    height: 2rem;
+    border-radius: 1rem;
+}
+.button2:hover{
+    background-color: #F03351;
+    transition: 0.3s ease;
+}
+
+/* IMAGE */
+.img-container-latest{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.img-container-latest img{
+    margin-top: 2rem;
+    height: 8rem;
+    object-fit: contain;
+}
+
+/* TITLE */
+.stockandtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-single-title{
+    margin-left: 10px;
+    font-size: .9rem;
+    font-weight: bolder;
+}
+.stock{
+    margin-right: 10px;
+    font-size: .9rem;
+    font-weight: bolder;
+}
+
+/* PRICE */
+
+.priceandcart{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.cat-price-latest{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-weight: bolder;
+    color:black;
+}
+.cart-add-latest{
+    margin-left: 10rem;
+}
+#add-to-cart-icon-latest{
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #FEBF31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+/* CATEGORY SECTION */
+.sub-category-section{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #E7E4E3;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.electronics-category{
+    display: flex;
+}
+.all a{
+    color: black;
+    border-bottom: 3px solid red;
+    font-weight: bolder;
+    padding-bottom: 3px;
+    display: inline-block;
+}
+.electronics-category a {
+    color: black;
+    padding-bottom: 3px;
+    border-bottom: 3px solid red;
+    font-weight: bolder;
+}

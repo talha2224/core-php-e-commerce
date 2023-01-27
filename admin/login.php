@@ -1,0 +1,80 @@
+<?php
+include 'connection.php';
+@session_start();
+
+if(isset($_POST['submit_login'])){
+    $email=$_POST['email'];
+    $password=$_POST['password'];
+    $query="SELECT * FROM `admin_login` WHERE `email`='$email'";
+    $execute=mysqli_query($connect,$query);
+    $number_of_rows=mysqli_num_rows($execute);
+    $fetch_pass=mysqli_fetch_assoc($execute);
+    $username=$fetch_pass['name'];
+
+    if($number_of_rows>0){
+        $_SESSION['username']=$username;
+        if(password_verify($password,$fetch_pass['password'])){
+            if($number_of_rows==1 ){
+                $_SESSION['username'] = $username ;
+                echo "<script>alert('login succesfully')</script>";
+                echo "<script>window.open('index.php','_self');</script>";
+            }
+            else{
+                $_SESSION['username'] = $username ;
+                echo "<script>alert('login succesfully')</script>";
+                echo "<script>window.open('payment.php','_self');</script>";
+            }
+        }
+        else{
+            echo "<script>alert('invalid credentials')</script>";
+        }
+    }
+    else{
+        echo "<script>alert('invalid credentials')</script>";
+    }
+}
+
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="https://kit.fontawesome.com/88b1c3a02d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sub1">
+            <img src="../../e-commerce/img/normal/login.png" alt="">
+        </div>
+        <div class="sub2">
+            <div class="heading">
+                <h2>WELCOME TO E-SHOP :)</h2>
+            </div>
+            <form action="" method="POST">
+
+                <div class="email">
+                    <i class="fa-regular fa-envelope" class="emailicon"></i>
+                    <input type="text" name="email" class="e" placeholder="Enter your email"required>
+                </div>
+
+                <div class="password">
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="password" class="pass" placeholder="Enter your password"required>
+                </div>
+
+                <div class="btn">
+                    <p>Don't have an account? please
+                        <a href="register.php">signup</a>
+                    </p>
+                    <input type="submit" value="Login" name="submit_login" class="submit" >
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

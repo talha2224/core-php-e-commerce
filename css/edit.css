@@ -1,0 +1,60 @@
+
+.heading{
+    color: white;
+    text-align: center;
+    padding: 2rem;
+}
+.container3{
+    background-color: rgb(87, 87, 100);
+    padding-top: 1.5rem;
+    height: 30vh;
+
+}
+
+.form{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    height: 70vh;
+    background-color: white;
+    margin-top: -4rem;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.edit-heading{
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.form_container{
+    padding-left: 2rem;
+}
+.form_container p{
+    margin-bottom: .5rem;
+    font-weight: bolder;
+    margin-top: .5rem;
+}
+.submit{
+    display: block;
+}
+.form_container .input{
+    margin-bottom: 0.5rem;
+    width: 20rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: none;
+    border:1px solid gray;
+    border-radius: 4px;
+}
+
+.submit{
+    outline: none;
+    border: none;
+    background-color: #FEBF31;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-align: center;
+    width: 8rem;
+    height: 2rem;
+}
